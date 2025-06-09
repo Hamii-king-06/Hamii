@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Hamii"
+version = "0.1.0"
+description = "Simple terminal color formatting through {color} placeholders"
+readme = "README.md"
+requires-python = ">=3.6"
+license = { text = "MIT" }
+authors = [{ name="YourName", email="youremail@example.com" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["terminal", "color", "ansi", "formatting"]
